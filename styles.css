@@ -1,8 +1,18 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
+  margin: 0;
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  font-family: sans-serif;
+  user-select: none;
+  color: white;
 }
-#game-canvas {
-    border: 1px solid #000;
+
+canvas {
+  background: #88ccee;
+  border: 3px solid #444;
+  display: block;
 }
